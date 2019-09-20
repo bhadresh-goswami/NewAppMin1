@@ -15,6 +15,8 @@
 		D7D5255E2334CEE30016F8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D5255C2334CEE30016F8C1 /* LaunchScreen.storyboard */; };
 		D7D525692334CEE30016F8C1 /* MinApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D525682334CEE30016F8C1 /* MinApp2Tests.swift */; };
 		D7D525742334CEE30016F8C1 /* MinApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D525732334CEE30016F8C1 /* MinApp2UITests.swift */; };
+		D7D525822334D1580016F8C1 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D525812334D1580016F8C1 /* RedViewController.swift */; };
+		D7D525842334D1610016F8C1 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D525832334D1610016F8C1 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D7D5256F2334CEE30016F8C1 /* MinApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D525732334CEE30016F8C1 /* MinApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinApp2UITests.swift; sourceTree = "<group>"; };
 		D7D525752334CEE30016F8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D525812334D1580016F8C1 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		D7D525832334D1610016F8C1 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				D7D5255C2334CEE30016F8C1 /* LaunchScreen.storyboard */,
 				D7D5255F2334CEE30016F8C1 /* Info.plist */,
 				D7D525572334CEE30016F8C1 /* MinApp2.xcdatamodeld */,
+				D7D525812334D1580016F8C1 /* RedViewController.swift */,
+				D7D525832334D1610016F8C1 /* GreenViewController.swift */,
 			);
 			path = MinApp2;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D525822334D1580016F8C1 /* RedViewController.swift in Sources */,
 				D7D525532334CEE30016F8C1 /* ViewController.swift in Sources */,
 				D7D525592334CEE30016F8C1 /* MinApp2.xcdatamodeld in Sources */,
 				D7D525512334CEE30016F8C1 /* AppDelegate.swift in Sources */,
+				D7D525842334D1610016F8C1 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
